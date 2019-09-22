@@ -1,7 +1,7 @@
 
 # Api Test  Jsonplaceholder
 
->This project is writen in JAVA using karate.
+>This project is writen in JAVA using [Karate](https://github.com/intuit/karate).
 
 ## Given Task:
 Develop a set of REST API tests for an online blog
@@ -39,7 +39,7 @@ Assume that you’re testing a basic blog, it has the following functions:
 * **`mkdir automation`** *to create a new directory with name automation*
 * **`cd automation`**
 * **`git init`** *to initialise empty git repo*
-* **`git clone https://mtnmhn@bitbucket.org/mtnmhn/api-test-flybuys.git`** **-to clone this repo **
+* **`git clone https://github.com/methun91/api-test-jsonplaceholder.git`** **-to clone this repo **
 * **`cd api-test-flybuys`**
 * **`mvn clean `** and hit enter * ***You should see BUILD SUCCESS**
     
