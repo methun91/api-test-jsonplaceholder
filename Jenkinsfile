@@ -7,7 +7,9 @@ pipeline {
             }
         }
             stage('Test'){
+                steps{
                 sh 'mvn test -Dkarate.options="--tags @api" -Dtest=PrettyRunner'
+                }
             }
         }
     }
