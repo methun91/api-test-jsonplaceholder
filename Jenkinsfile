@@ -6,6 +6,9 @@ pipeline {
             steps {
                 sh 'mvn --version'
             }
+            stage('Test'){
+                sh 'mvn test -Dkarate.options="--tags @api" -Dtest=PrettyRunner'
+            }
         }
     }
 }
